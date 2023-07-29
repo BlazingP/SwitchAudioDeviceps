@@ -10,7 +10,7 @@
    ```
 3. 使用Set-AudioDevice命令来切换音频设备。例如，如果你想切换到Index为2的设备，你可以运行以下命令：
    ```powershell
-Set-AudioDevice -ID "{0.0.0.00000000}.{Index为2的设备ID}"
+   Set-AudioDevice -ID "{0.0.0.00000000}.{Index为2的设备ID}"
    ```
 
 你可以将以上步骤封装成一个PowerShell脚本，然后创建一个桌面快捷方式来运行这个脚本，从而实现通过点击桌面来切换音频设备。
